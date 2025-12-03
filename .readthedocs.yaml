@@ -23,3 +23,7 @@ sphinx:
 formats:
   # Aktiviert den PDF-Download
   - pdf
+
+python:
+  install:
+    - requirements: docs/requirements.txt

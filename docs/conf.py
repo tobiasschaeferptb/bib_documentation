@@ -22,4 +22,11 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # Design für HTML (Standard ist 'alabaster', 'rtd_theme' ist schöner, muss aber installiert sein)
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+
+try:
+    import sphinx_typo3_theme
+    html_theme = 'sphinx_typo3_theme'
+    extensions.append("sphinx_typo3_theme")
+except ImportError:
+    html_theme = 'alabaster'
