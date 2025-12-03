@@ -12,7 +12,7 @@ release = '1.6.1'
 # WICHTIG: Hier muss der Name Ihrer Hauptdatei stehen (ohne .rst)
 # Bei TYPO3 ist das meistens 'Index' (großgeschrieben) oder 'index' (klein).
 # Prüfen Sie genau, wie die Datei heißt!
-master_doc = 'Index'
+master_doc = 'index'
 
 # Extensions laden
 extensions = []
